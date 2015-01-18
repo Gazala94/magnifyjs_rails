@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["agmond@gmx.com.br"]
   spec.summary       = %q{Magnify JS is a simple, lightweight jQuery plugin that adds a magnifying glass style zoom functionality to images.}
   spec.description   = %q{Magnify JS is a simple, lightweight jQuery plugin that adds a magnifying glass style zoom functionality to images.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/guinslym/magnifyjs_rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
