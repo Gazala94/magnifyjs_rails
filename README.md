@@ -2,9 +2,6 @@
 
 This is a rails implementation of [Magnifyjs](https://github.com/thdoan/magnify). Magnify JS is a simple, lightweight jQuery plugin that adds a magnifying glass style zoom functionality to images.
 
-### Rails Demo app
-
-
 
 ## Installation
 
@@ -25,15 +22,35 @@ Or install it yourself as:
 ## Usage
 add in `app/assets/javascripts/application.js` after jquery (below jquery)
 
-	//= require magnifyjs_rails
+	//= require jquery.magnify.js
 
 add in `app/assets/stylesheets/application.css` 
 
-	//= require magnifyjs_rails
+	//= require magnify.css
+
+in your view
+```ruby
+<%= image_tag ('images/watch.jpg'), 
+               :width => "319", 
+               :height => "570",
+               data: { src: "images/watch-large.jpg"} %>
+```
+or
+```html
+<img src="images/watch.jpg" alt="" width="319" height="570" data-magnify-src="images/watch-large.jpg">
+```
+```javascript
+<script>
+$(document).ready(function() {
+  // Initiate magnification powers
+  $('img').magnify();
+});
+</script>
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/magnifyjs_rails/fork )
+1. Fork it ( https://github.com/guinslym/magnifyjs_rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

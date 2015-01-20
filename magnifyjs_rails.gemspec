@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = MagnifyjsRails::VERSION
   spec.authors       = ["Guinsly Mondesir"]
   spec.email         = ["agmond@gmx.com.br"]
-  spec.summary       = %q{Magnify JS is a simple, lightweight jQuery plugin that adds a magnifying glass style zoom functionality to images.}
+  spec.summary       = %q{Adding magnify.js into your rails app. Magnify JS is a simple, lightweight jQuery plugin that adds a magnifying glass style zoom functionality to images.}
   spec.description   = %q{Magnify JS is a simple, lightweight jQuery plugin that adds a magnifying glass style zoom functionality to images.}
   spec.homepage      = "https://github.com/guinslym/magnifyjs_rails"
   spec.license       = "MIT"
