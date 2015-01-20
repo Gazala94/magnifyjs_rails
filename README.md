@@ -1,3 +1,4 @@
+###gem in developement
 # MagnifyjsRails
 
 This is a rails implementation of [Magnifyjs](https://github.com/thdoan/magnify). Magnify JS is a simple, lightweight jQuery plugin that adds a magnifying glass style zoom functionality to images.
